@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Discover handbags, shoes and fashion accessories at Nexora Mart. Order easily on WhatsApp.">
+<title>Nexora Mart | Online Store</title>
+<style>
+:root{--green:#173d32;--deep:#102b24;--gold:#c6a45a;--cream:#f7f4ec;--ink:#242722;--muted:#77786f}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#fff;color:var(--ink)}
+.top{background:var(--deep);color:#fff;text-align:center;padding:9px 12px;font-size:12px;letter-spacing:1.1px}
+header{background:#fff;position:sticky;top:0;z-index:5;border-bottom:1px solid #eee}
+.nav{max-width:1150px;margin:auto;padding:17px 22px;display:flex;align-items:center;justify-content:space-between;gap:15px}
+.brand{font-family:Georgia,serif;font-size:25px;color:var(--green);font-weight:bold;letter-spacing:.5px}
+.brand span{color:var(--gold)}nav{display:flex;gap:22px}nav a{color:#333;text-decoration:none;font-size:13px;font-weight:bold}
+.hero{background:linear-gradient(100deg,rgba(10,35,28,.88),rgba(10,35,28,.28)),url('https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1800&q=85') center/cover;min-height:440px;display:flex;align-items:center;color:white}
+.hero-inner{max-width:1150px;width:100%;margin:auto;padding:60px 25px}
+.eyebrow{color:#e2c77e;text-transform:uppercase;letter-spacing:3px;font-size:11px;font-weight:bold}
+h1{font-family:Georgia,serif;font-size:clamp(38px,6vw,68px);line-height:1.05;max-width:600px;margin:18px 0}
+.hero p{max-width:440px;line-height:1.7;color:#f1eee5}
+.btn{display:inline-block;background:var(--gold);color:#142a22;text-decoration:none;padding:14px 23px;border-radius:2px;font-weight:bold;font-size:13px;margin-top:14px}
+section{max-width:1150px;margin:auto;padding:65px 22px}
+.section-head{text-align:center;margin-bottom:32px}.section-head small{color:#a17e35;letter-spacing:2px;text-transform:uppercase;font-weight:bold}
+h2{font-family:Georgia,serif;color:var(--green);font-size:34px;margin:10px 0}
+.section-head p{color:var(--muted);font-size:14px}
+.categories{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cat{height:210px;position:relative;overflow:hidden;background:#eee}
+.cat img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.cat:hover img{transform:scale(1.05)}
+.cat b{position:absolute;bottom:0;left:0;right:0;padding:25px 16px 16px;color:#fff;font-family:Georgia,serif;font-size:24px;background:linear-gradient(transparent,rgba(0,0,0,.72))}
+.products{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}
+.product{border:1px solid #eee;padding-bottom:18px}.product img{width:100%;height:245px;object-fit:cover;background:var(--cream)}
+.product h3{font-family:Georgia,serif;color:var(--green);font-size:19px;margin:15px 15px 6px}
+.price{margin:0 15px;color:#9b7935;font-weight:bold}
+.order{display:block;margin:14px 15px 0;text-align:center;padding:11px;background:var(--green);color:#fff;text-decoration:none;font-size:12px;font-weight:bold}
+.note{text-align:center;background:var(--cream);padding:36px 20px;line-height:1.8;color:#555}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;text-align:center}
+.feature{padding:18px}.feature strong{display:block;color:var(--green);font-family:Georgia,serif;font-size:19px;margin:10px}
+.feature p{font-size:13px;color:var(--muted);line-height:1.6}
+footer{background:var(--deep);color:#fff;padding:40px 22px;text-align:center}
+footer .brand{color:#fff}footer p{font-size:13px;color:#ddd;line-height:1.8}
+footer a{color:#e2c77e;text-decoration:none}
+.wa-float{position:fixed;right:18px;bottom:18px;background:#168b55;color:white;padding:14px 18px;border-radius:30px;text-decoration:none;font-size:13px;font-weight:bold;box-shadow:0 5px 18px #0003;z-index:8}
+@media(max-width:700px){nav{gap:11px}nav a{font-size:11px}.brand{font-size:20px}.hero{min-height:390px}.categories,.products,.features{grid-template-columns:1fr 1fr}.cat{height:165px}.product img{height:180px}section{padding:48px 16px}}
+@media(max-width:430px){nav a:nth-child(3){display:none}.categories,.products{grid-template-columns:1fr 1fr}.product h3{font-size:16px}.product img{height:155px}}
+</style>
+</head>
+<body>
+<div class="top">WELCOME TO NEXORA MART · FASHION, WITH A TOUCH OF CLASS</div>
+<header><div class="nav">
+  <div class="brand">NEXORA <span>MART</span></div>
+  <nav><a href="#home">HOME</a><a href="#shop">SHOP</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a></nav>
+</div></header>
+<main>
+<div class="hero" id="home"><div class="hero-inner">
+  <div class="eyebrow">Your style, your statement</div>
+  <h1>Discover Your<br>Signature Style.</h1>
+  <p>Explore a curated collection of fashion accessories, handbags and everyday essentials chosen to elevate your look.</p>
+  <a class="btn" href="#shop">EXPLORE COLLECTION</a>
+</div></div>
+<section>
+  <div class="section-head"><small>Shop by category</small><h2>Find Your Favourite</h2><p>Thoughtful picks for every style and every day.</p></div>
+  <div class="categories">
+    <div class="cat"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80" alt="Handbags"><b>Handbags</b></div>
+    <div class="cat"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80" alt="Shoes"><b>Footwear</b></div>
+    <div class="cat"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=80" alt="Accessories"><b>Accessories</b></div>
+  </div>
+</section>
+<section id="shop">
+  <div class="section-head"><small>Our collection</small><h2>Featured Products</h2><p>Replace these sample items with your own products and prices.</p></div>
+  <div class="products">
+    <article class="product"><img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80" alt="Classic handbag"><h3>Premium Everyday Handbag</h3><p class="price">Rs. 2,500</p><a class="order" href="https://wa.me/923719075787?text=Hello%2C%20I%20want%20to%20order%20Classic%20Everyday%20Bag" target="_blank">ORDER ON WHATSAPP</a></article>
+    <article class="product"><img src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=700&q=80" alt="Elegant shoes"><h3>Elegant Fashion Shoes</h3><p class="price">Rs. 3,200</p><a class="order" href="https://wa.me/923719075787?text=Hello%2C%20I%20want%20to%20order%20Elegant%20Footwear" target="_blank">ORDER ON WHATSAPP</a></article>
+    <article class="product"><img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?auto=format&fit=crop&w=700&q=80" alt="Fashion accessories"><h3>Fashion Accessories Set</h3><p class="price">Rs. 1,800</p><a class="order" href="https://wa.me/923719075787?text=Hello%2C%20I%20want%20to%20order%20Golden%20Accessories%20Set" target="_blank">ORDER ON WHATSAPP</a></article>
+  </div>
+</section>
+<div class="note">“Style is a way to say who you are without having to speak.”<br><strong>NEXORA MART</strong></div>
+<section id="about"><div class="section-head"><small>Why shop with us</small><h2>A Better Shopping Experience</h2></div>
+  <div class="features">
+    <div class="feature"><div>✦</div><strong>Curated Collection</strong><p>Fashion finds selected to complement your personal style.</p></div>
+    <div class="feature"><div>♡</div><strong>Customer Support</strong><p>Message us on WhatsApp for product details and order help.</p></div>
+    <div class="feature"><div>✓</div><strong>Easy Ordering</strong><p>Place your order directly with us through WhatsApp.</p></div>
+  </div>
+</section>
+</main>
+<footer id="contact"><div class="brand">NEXORA <span>MART</span></div><p>Questions or ready to order?<br>Contact us on WhatsApp and we'll be happy to help.</p>
+<a href="https://wa.me/923719075787" target="_blank">CHAT WITH US ON WHATSAPP</a>
+<p style="margin-top:25px">© 2026 Nexora Mart. All rights reserved.</p></footer>
+<a class="wa-float" href="https://wa.me/923719075787" target="_blank">WhatsApp Us</a>
+</body></html>
